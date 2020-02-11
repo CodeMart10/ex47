@@ -5,12 +5,12 @@ with open("README.md", "r") as f:
 
 
 setuptools.setup(
-    name="yourproject"
+    name="ex47"
     version="0.0.1",
-    author="your name",
-    author_email="your@email.com",
-    url="https://github.com/yourusername/yourproject",
-    description="what does yourproject do?",
+    author="Cody Martin",
+    author_email="codemart10@gmail.com",
+    url="https://github.com/codemart10/ex47",
+    description="Practicing my unit tests?",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
@@ -19,4 +19,3 @@ setuptools.setup(
     tests_require=['pytest'],
     python_requires='>=3.6',
 )
-
